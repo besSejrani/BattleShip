@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1578565753 source:c:\users\besjan.sejrani\desktop\battleship\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"global.h"
+
+1578565979 c:\users\besjan.sejrani\desktop\battleship\global.h
+	"menu.h"
+
+1578565975 c:\users\besjan.sejrani\desktop\battleship\menu.h
+
+1578565948 source:c:\users\besjan.sejrani\desktop\battleship\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"global.h"
+
