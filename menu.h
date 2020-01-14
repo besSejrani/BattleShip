@@ -13,5 +13,6 @@
 #define QUIT_GAME_OPTION_ONE 1
 
 int menuChoice();
-
+void showHelp();
+int checkQuit();
 #endif // MENU_H

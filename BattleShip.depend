@@ -1,16 +1,32 @@
 # depslib dependency file v1.0
-1578565753 source:c:\users\besjan.sejrani\desktop\battleship\main.c
+1578998865 source:c:\users\besjan.sejrani\desktop\battleship\main.c
 	<stdio.h>
 	<stdlib.h>
 	<time.h>
 	"global.h"
 
-1578565979 c:\users\besjan.sejrani\desktop\battleship\global.h
+1578998505 c:\users\besjan.sejrani\desktop\battleship\global.h
 	"menu.h"
+	"grid.h"
+	"game.h"
 
-1578565975 c:\users\besjan.sejrani\desktop\battleship\menu.h
+1578996928 c:\users\besjan.sejrani\desktop\battleship\menu.h
 
-1578565948 source:c:\users\besjan.sejrani\desktop\battleship\menu.c
+1578996898 source:c:\users\besjan.sejrani\desktop\battleship\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"global.h"
+
+1578998105 c:\users\besjan.sejrani\desktop\battleship\grid.h
+
+1578998752 source:c:\users\besjan.sejrani\desktop\battleship\grid.c
+	<stdio.h>
+	<stdlib.h>
+	"global.h"
+
+1578998959 c:\users\besjan.sejrani\desktop\battleship\game.h
+
+1578999042 source:c:\users\besjan.sejrani\desktop\battleship\game.c
 	<stdio.h>
 	<stdlib.h>
 	"global.h"

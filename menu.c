@@ -90,3 +90,40 @@ $$    $$//  |      $$ $$ $$< $$    $$/ $$ |  $$  $$/
 
     return userChoice;
 }
+
+/**
+ * Show the help menu.
+ */
+void showHelp()
+{
+    system("cls");
+    printf("The battleship game opposes to player against each other.\n"
+           "Each player has 5 battleships: 1 aircraft carrier (5 spaces), 1 cruiser (4 spaces), 1 destroyer (3 spaces), 1 submarine (3 spaces), 1 torpedo boat (2 spaces).\n\n"
+           "The battleships aren't allowed to be cross positioned.\n"
+           "Each player tries to sink the enemy's ships by entering an X value and a Y value.\n\n"
+           "We count on you captain !\n\n");
+    system("PAUSE");
+}
+
+/**
+ * Confirms that the user wants to quit the game.
+ */
+int checkQuit()
+{
+
+    int error = 0;
+    int userChoice = 0;
+
+    while (error < 1)
+    {
+        system("cls");
+        printf("Do you want to quit the game (0.NO / 1.YES) ?\n");
+        fflush(stdin);
+        error = scanf("%d", &userChoice);
+        if (userChoice < QUIT_GAME_OPTION_ZERO || userChoice > QUIT_GAME_OPTION_ONE)
+        {
+            error = 0;
+        }
+    }
+    return userChoice;
+}
