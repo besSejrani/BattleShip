@@ -1,18 +1,18 @@
 # depslib dependency file v1.0
-1578998865 source:c:\users\besjan.sejrani\desktop\battleship\main.c
+1580247909 source:c:\users\besjan.sejrani\desktop\battleship\main.c
 	<stdio.h>
 	<stdlib.h>
 	<time.h>
 	"global.h"
-
-1578998505 c:\users\besjan.sejrani\desktop\battleship\global.h
-	"menu.h"
-	"grid.h"
 	"game.h"
 
-1578996928 c:\users\besjan.sejrani\desktop\battleship\menu.h
+1580247880 c:\users\besjan.sejrani\desktop\battleship\global.h
+	"menu.h"
+	"game.h"
 
-1578996898 source:c:\users\besjan.sejrani\desktop\battleship\menu.c
+1580241772 c:\users\besjan.sejrani\desktop\battleship\menu.h
+
+1580245457 source:c:\users\besjan.sejrani\desktop\battleship\menu.c
 	<stdio.h>
 	<stdlib.h>
 	"global.h"
@@ -24,10 +24,74 @@
 	<stdlib.h>
 	"global.h"
 
-1578998959 c:\users\besjan.sejrani\desktop\battleship\game.h
+1580247864 c:\users\besjan.sejrani\desktop\battleship\game.h
 
-1578999042 source:c:\users\besjan.sejrani\desktop\battleship\game.c
+1580248044 source:c:\users\besjan.sejrani\desktop\battleship\game.c
 	<stdio.h>
 	<stdlib.h>
 	"global.h"
+
+1580245846 source:c:\users\besjan.sejrani\desktop\battleshipfinal\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"global.h"
+
+1580244766 c:\users\besjan.sejrani\desktop\battleshipfinal\global.h
+	"menu.h"
+	"grid.h"
+	"game.h"
+
+1580241772 c:\users\besjan.sejrani\desktop\battleshipfinal\menu.h
+
+1580241758 c:\users\besjan.sejrani\desktop\battleshipfinal\grid.h
+
+1580246242 c:\users\besjan.sejrani\desktop\battleshipfinal\game.h
+
+1580245457 source:c:\users\besjan.sejrani\desktop\battleshipfinal\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"global.h"
+
+1580241544 source:c:\users\besjan.sejrani\desktop\battleshipfinal\game.c
+	<stdio.h>
+	<stdlib.h>
+	"global.h"
+
+1580245977 source:c:\users\besjan.sejrani\desktop\battleshipfinal\grid.c
+	<stdio.h>
+	<stdlib.h>
+	"global.h"
+
+1580247412 source:c:\users\besjan.sejrani\desktop\battletest\grid.c
+	<stdio.h>
+	<stdlib.h>
+	"global.h"
+
+1580247880 c:\users\besjan.sejrani\desktop\battletest\global.h
+	"menu.h"
+	"game.h"
+
+1580241772 c:\users\besjan.sejrani\desktop\battletest\menu.h
+
+1580247517 c:\users\besjan.sejrani\desktop\battletest\grid.h
+
+1580247864 c:\users\besjan.sejrani\desktop\battletest\game.h
+
+1580245457 source:c:\users\besjan.sejrani\desktop\battletest\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"global.h"
+
+1580247412 source:c:\users\besjan.sejrani\desktop\battletest\game.c
+	<stdio.h>
+	<stdlib.h>
+	"global.h"
+
+1580247427 source:c:\users\besjan.sejrani\desktop\battletest\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"global.h"
+	"game.h"
 

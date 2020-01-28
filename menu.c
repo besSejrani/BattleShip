@@ -4,7 +4,8 @@
 #include "global.h"
 
 /**
- * Show the menu to the user.
+ * @name menuChoice
+ * @description Show the menu to the user.
  */
 int menuChoice()
 {
@@ -82,17 +83,17 @@ $$    $$//  |      $$ $$ $$< $$    $$/ $$ |  $$  $$/
         printf("\n");
         fflush(stdin);
         error = scanf("%d", &userChoice);
-        if (userChoice < MIN_NUMBER_MENU || userChoice > MAX_NUMBER_MENU)
-        {
-            error = 0;
-        }
+
+        userChoice < MIN_NUMBER_MENU || userChoice > MAX_NUMBER_MENU ? error = 0 : "" ;
+
     }
 
     return userChoice;
 }
 
 /**
- * Show the help menu.
+ * @name showHelp
+ * @description Show the help menu.
  */
 void showHelp()
 {
@@ -106,7 +107,8 @@ void showHelp()
 }
 
 /**
- * Confirms that the user wants to quit the game.
+ * @name checkQuit
+ * @description Confirms that the user wants to quit the game.
  */
 int checkQuit()
 {
@@ -120,10 +122,9 @@ int checkQuit()
         printf("Do you want to quit the game (0.NO / 1.YES) ?\n");
         fflush(stdin);
         error = scanf("%d", &userChoice);
-        if (userChoice < QUIT_GAME_OPTION_ZERO || userChoice > QUIT_GAME_OPTION_ONE)
-        {
-            error = 0;
-        }
+
+        userChoice < QUIT_GAME_OPTION_ZERO || userChoice > QUIT_GAME_OPTION_ONE ? error = 0: "";
+
     }
     return userChoice;
 }

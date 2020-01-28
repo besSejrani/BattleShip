@@ -1,10 +1,16 @@
-#ifndef GAME_H
-#define GAME_H
 
-// DEFINE PLAYER AND AI
-#define PLAYER 1
-#define AI 2
+#ifndef GRID_H
+#define GRID_H
 
-//int checkFinish();
+void renderGrid();
+void shotAi();
+void fillGrid();
+void askPosition();
+void checkTouched();
+void aiPlays();
+void playerPlays();
+void checkTurnGame();
+int checkFinish();
+void showWinner();
 
-#endif // GAME_H
+#endif // GRID_H
